@@ -1,0 +1,32 @@
+{
+  "name": "divert",
+  "version": "1.0.0",
+  "description": "Bot de música para divert",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paosz",
+  "license": "ISC",
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "ascii-art": "^1.4.3",
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "figlet": "^1.2.0",
+    "fs": "0.0.1-security",
+    "google-translate-api": "^2.3.0",
+    "jimp": "^0.3.5",
+    "mc-hermes": "^0.1.5",
+    "mojang-api": "0.0.2",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.9",
+    "opusscript": "0.0.6",
+    "quick.hook": "^1.4.2",
+    "request": "^2.88.0",
+    "simple-youtube-api": "^5.0.2",
+    "table": "^4.0.3",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^0.20.4"
+  }
+}
