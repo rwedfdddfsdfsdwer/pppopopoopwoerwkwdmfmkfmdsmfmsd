@@ -6,7 +6,7 @@ module.exports.run = (bot, message, args) => {
     const msg = args.join(" ");
     message.delete().catch();
 
-  bot.channels.get('482330192736681995').send({
+  bot.channels.get('483123268887379969').send({
     "embed": {
         "author": { 
             "name": "Hyzen - Logs",
