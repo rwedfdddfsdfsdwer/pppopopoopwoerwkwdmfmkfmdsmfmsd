@@ -91,7 +91,7 @@ client.on('guildMemberRemove', member => {
     let avatar = member.user.avatarURL
   
   
-    let embed = new Discord.RichEmbed()
+    let embed2 = new Discord.RichEmbed()
         .setColor('RANDOM')
         .setThumbnail(avatar)
         .addField('Saiu do servidor.', `O ${member} saiu do Hyzen :c\n Agora temos __${member.guild.memberCount}__ em nosso servidor.\n`)
