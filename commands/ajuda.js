@@ -4,7 +4,7 @@ module.exports.run = async (client, message, args) => {
     message.delete().catch(O_o=>{});
     const msg1 = new Discord.RichEmbed()
     .setAuthor(message.author.username, message.author.displayAvatarURL)
-    .setDescription(`OLá ${message.author.username} veja abaixo nossos comandos.
+    .setDescription(`Olá ${message.author.username} veja abaixo nossos comandos.
  **»h!ajuda** Veja todos os meus comandos.
  **»h!ban [@]** Ira banir um usuário do servidor. __COMANDO ADMINISTRATIVO__
  **»h!mute [@]** Ira mutar um usuário do servidor. __COMANDO ADMINISTRATIVO__
